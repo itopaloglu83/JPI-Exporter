@@ -1,0 +1,121 @@
+{
+    "JobCustomField1": {
+        "Name": "Number of Lines",
+        "DefaultValue": ""
+    },
+    "JobCustomField2": {
+        "Name": "Production Order Number",
+        "DefaultValue": ""
+    },
+    "JobCustomField3": {
+        "Name": "",
+        "DefaultValue": ""
+    },
+    "JobCustomField4": {
+        "Name": "",
+        "DefaultValue": ""
+    },
+    "JobCustomField5": {
+        "Name": "Special Notes",
+        "DefaultValue": ""
+    },
+    "JobCustomField6": {
+        "Name": "",
+        "DefaultValue": ""
+    },
+    "JobCustomField7": {
+        "Name": "",
+        "DefaultValue": ""
+    },
+    "JobCustomField8": {
+        "Name": "",
+        "DefaultValue": ""
+    },
+    "JobCustomField9": {
+        "Name": "",
+        "DefaultValue": ""
+    },
+    "JobCustomField10": {
+        "Name": "",
+        "DefaultValue": ""
+    },
+    "TaskCustomField1": {
+        "Name": "Resin",
+        "DefaultValue": ""
+    },
+    "TaskCustomField2": {
+        "Name": "Customer PO",
+        "DefaultValue": ""
+    },
+    "TaskCustomField3": {
+        "Name": "",
+        "DefaultValue": ""
+    },
+    "TaskCustomField4": {
+        "Name": "",
+        "DefaultValue": ""
+    },
+    "TaskCustomField5": {
+        "Name": "",
+        "DefaultValue": ""
+    },
+    "TaskCustomField6": {
+        "Name": "",
+        "DefaultValue": ""
+    },
+    "TaskCustomField7": {
+        "Name": "",
+        "DefaultValue": ""
+    },
+    "TaskCustomField8": {
+        "Name": "",
+        "DefaultValue": ""
+    },
+    "TaskCustomField9": {
+        "Name": "",
+        "DefaultValue": ""
+    },
+    "TaskCustomField10": {
+        "Name": "",
+        "DefaultValue": ""
+    },
+    "TaskColorAsField": {
+        "Name": "Machine Name",
+        "DefaultValue": "None"
+    },
+    "PlanningStart": "2023-11-29T11:37:39",
+    "PlanningHorizon": 8,
+    "DaysBeforePlanningStart": 3,
+    "JobViewBarText": "Resource",
+    "ResourceViewBarText": "JobName",
+    "JobStrategy": "Asap",
+    "BarColorInNonProdTime": "Transparent",
+    "Locale": "en-US",
+    "JobStatusReadyTasks": [
+        2
+    ],
+    "SetupTimeStarts": "AfterPredecessor",
+    "TeardownTimeStarts": "BeforeSuccessor",
+    "ApprovalWorkflow": "NotActivated",
+    "ScheduleEngineRunDirectly": true,
+    "ShowTooltip": "SeverelyDelayed",
+    "ExecuteTracking": "TimeBased",
+    "ShopfloorExecuteTrackingMode": "Totals",
+    "CalculateReleasedateOnCreation": false,
+    "ReleasedateCalculationBuffer": 1,
+    "UseResourceCategories": false,
+    "CalendarExceptionCategories": [
+        {
+            "Name": "Maintenance",
+            "Color": "rgb(255,0,0)"
+        },
+        {
+            "Name": "DOWNTIME",
+            "Color": "rgb(132,0,255)"
+        },
+        {
+            "Name": "Extra Time",
+            "Color": "rgb(5,181,250)"
+        }
+    ]
+}
