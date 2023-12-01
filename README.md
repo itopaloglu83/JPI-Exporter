@@ -24,3 +24,8 @@ Create the distribution.
 ``` Bash
 pyinstaller --onefile --name "JPI Exporter" main.py
 ```
+
+Download via the GitHub link.
+```
+https://raw.githubusercontent.com/itopaloglu83/JPI-Exporter/main/Distribution/JPI%20Exporter.zip
+```
